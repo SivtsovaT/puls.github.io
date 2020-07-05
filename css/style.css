@@ -1,0 +1,215 @@
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}
+.promo{
+    min-height: 650px;
+    padding: 15px 0 93px 0;
+    background: url(../img/bg/main.jpg)  no-repeat;
+    background-size: 100% 100%;
+            
+}
+.promo .promo_header{
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+@media screen and (min-width: 575px) {
+    .header.header_phone{
+        font-size: 16px;
+    }
+    
+    .promo .promo_header{
+     
+        color: #ff0000;
+    }    
+}
+.promo .promo_subheader{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 12px;
+}
+.promo .promo_link{
+
+color: #ffffff;
+font-size: 16px;
+font-weight: 500;
+margin-top: 18px;
+}
+.promo .promo_link a{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: underline; 
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header_official{
+    font-family: MuseoSansCyrl;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #ffffff;
+}
+span{
+    font-family: MuseoSansCyrl;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+.header_phone{
+    font-family: MuseoSansCyrl;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    }
+.header_contacts{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.button {
+margin-top: 10px;
+width: 150px;
+height: 30px;
+background-color: #c70101;
+border-radius: 5.0px;
+font-family: MuseoSansCyrl;
+font-size: 12px;
+line-height: 1.2;
+font-weight: 500;
+text-transform: uppercase;
+color: #ffffff;
+border: none;
+}
+@media screen and (max-width: 575px){
+    .button{
+        height: 25px;
+        color:yellow;
+    }
+}
+.button_main{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 300px;
+    height: 50px;
+    background-color: #c70101;
+    border-radius: 5.0px;
+    border: none;
+    margin-top: 65px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 90px;
+}
+@media screen and (max-width:767px){
+    .wrapper{
+        margin-right: 20px;
+    }
+   
+}
+.promo .promo_icons{
+    margin-top: 65px;
+    width: 465px;
+    display: flex;
+    justify-content: space-between;
+    
+   }
+   .promo .promo_icons .promo_icon {
+        width: 108px;
+        display: block;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 500;
+        color: #ffffff;
+        flex-wrap: wrap;
+   }
+    .promo .promo_icons .promo_icon .promo_descr{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        }
+        
+.advantages{
+    min-height: 470px;
+    padding: 67px 0 80px 0;
+    background-color: #f6f6f6;
+}
+.title {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #0d0d0d;
+}
+.advantages .advantages_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 62px;
+}
+.advantages .advantages_icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 239px;
+
+}
+.subtitle_text{
+    margin-top: 38px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #0d0d0d;
+    
+}
+.subtitle_descr{
+margin-top: 25px;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 300;
+color: #0d0d0d;
+text-align: center;        
+}
+.subtitle_descr a{
+    text-decoration: underline;
+    color: #ff0000;
+}
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url('../img/bg/bg2_363.png') center no-repeat;
+    background-size: 100% 100% ;}
+.consultation .consultation_descr{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.title_left{
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: left;
+}
