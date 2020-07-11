@@ -2,20 +2,19 @@
     max-width: 950px;
     margin: 0 auto;
 }
-.promo{
+
+
+/* .promo .promo_header{
     min-height: 650px;
     padding: 15px 0 93px 0;
-    background: url(../img/bg/main.jpg)  no-repeat;
+    background: url('../img/bg/main.jpg')center  no-repeat;
     background-size: 100% 100%;
-            
-}
-.promo .promo_header{
     font-size: 42px;
     line-height: 1.2;
     font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;
-}
+} */
 @media screen and (min-width: 575px) {
     .header.header_phone{
         font-size: 16px;
@@ -212,4 +211,62 @@ text-align: center;
     text-transform: uppercase;
     color: #ffffff;
     text-align: left;
+}
+.feed-form{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+}
+input{
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    border: none;
+    padding: 0 20px;
+    color: #4b4b4b;
+    font-size: 14px;
+    font-weight: 300;  
+        
+}
+.button_submit{
+    width: 100%;
+    height: 55px;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #c70101;
+    border-radius: 5.0px;
+}
+.carousel{
+    padding: 81px 0;
+}
+.carousel .carousel_inner {
+    position: relative;
+    width: 750px;
+    margin: 0 auto;
+
+}
+  
+.slick-prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -66px;
+    border:none;
+    background-color: #fff;
+    width: 31px;
+    height: 50px;
+    
+}
+.slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -66px;
+    border:none;
+    background-color: #fff;
+    width: 31px;
+    height: 50px;   
 }
